@@ -1,0 +1,59 @@
+body{
+  background-color: #f1f1f1;
+}
+
+h1, p {
+  font-family: Lato;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.header .search{
+  height: 30px;
+  width: 250px;
+  border-radius: 25px;
+  border: 1px solid #CCC;
+  padding: 3px;
+}
+
+.products{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product{
+  background-color: #FFF;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  max-width: 28%;
+}
+
+.product .price{
+  color: green;
+  font-weight: 700;
+  text-align: right;
+  margin: 0px;
+}
+
+.product .name{
+  font-size: 14px;
+  margin-bottom: 5px;
+  min-height: 30px;
+  font-weight: 600;
+}
+
+.product-image{
+  width: 100%;
+  max-height: 200px;
+}
+
+.filter{
+  width: 50px;
+  border: 1px solid #CCC;
+  margin-right: 10px;
+}
